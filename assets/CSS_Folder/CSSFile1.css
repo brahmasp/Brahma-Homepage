@@ -1,0 +1,164 @@
+/*controls majority of the features in the program
+EXCEPT: fixed title bar;
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+body {
+	background-color: #E0E0E0; /*the off white color*/
+	font-family: "Raleway";
+	color: black;
+}
+
+#introHeading {
+	background-color: #E0E0E0; /*the off white color*/
+	top: 0px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+img.brahmaPic {
+
+	float: right;
+	margin-left: 5px;
+	margin-top: 50px;
+	height: 290px;
+	width: 250px;
+	border-radius: 300px;
+}
+
+#introDescriptions {
+
+	overflow: auto;
+	font-size: 20px;
+	background-color: #FFFFFF; /*skyish blue color*/
+	border-style: solid;
+	padding: 25px 10px 10px 10px;
+	border-radius: 5px;
+	margin: 40px 200px 40px 100px;
+	box-shadow: -10px 10px 5px #888888;
+
+}
+
+a.headingOutlines{
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+.icon {
+	font-size: 50px;
+	padding-right: 15px;
+	color: black;
+
+}
+
+.icon.ion-android-mail {
+
+	font-size: 20px;
+	padding-right: 15px;
+}
+
+.icon.ion-android-call {
+	font-size: 25px;
+}
+
+ul {
+	font-size: 18px;
+	list-style-type: none;
+}
+
+#overallExperience {
+	font-size: 18px;
+	background-color: #FFFFFF; /*skyish blue color*/
+	height: auto;
+	overflow: scroll;
+	border-style: solid;
+	padding: 25px 10px 10px 10px;
+	border-radius: 5px;
+	margin: 40px 200px 40px 100px;
+	box-shadow: -10px 10px 2px #888888;
+}
+
+#reachingMe {
+	font-size: 18px;
+	background-color: #FFFFFF; /*skyish blue color*/
+	border-style: solid;
+	padding: 25px 10px 10px 10px;
+	margin: 7px;
+	border-radius: 5px;
+	margin: 40px 200px 40px 100px;
+	box-shadow: -10px 10px 5px #888888;
+
+}
+
+#reachingMe li {
+	display: inline;
+}
+
+footer {
+	text-align: center;
+}
+
+#contact {
+
+	font-size: 20px;
+}
+
+fieldset {
+
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: left;
+
+}
+
+legend {
+
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	text-align: left;
+	padding: 10px 13px 10px 13px;
+}
+
+.contactInfoInput {
+	margin: 7px auto 7px auto;
+	text-align: left;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #000000;
+}
+
+.contactInfoInput:focus {
+	outline-width: 0px;
+
+}
+
+#contactMeSubmit {
+
+	background-color: #3F51B5;
+	color: white;
+	border: none;
+	border-radius: 7px;
+	padding: 13px;	
+	font-size: 15px;
+	margin-left: 42%;
+
+}
+
+#contactMeSubmit:hover {
+	background-color: white;
+	color: #3F51B5;
+	font-weight: bold;
+	outline-width: 0px;
+	box-shadow: 5px 10px 10px #888888;
+}

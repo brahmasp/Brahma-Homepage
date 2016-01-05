@@ -1,0 +1,49 @@
+/*used as supplemental CSS file
+currently controls only fixed title bar */
+
+
+#headLine {
+
+	position: fixed;
+	background-color: #3F51B5;
+	color: #FFFFFF;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	font-size: 25px;
+	padding: 6px;
+	box-shadow: 10px 5px 2px #888888;
+}
+.icon.ion-more {
+
+	font-size: 25px;
+	padding-right: 15px;
+	padding-left: 15px;
+	color: white;
+}
+
+.headingOutlines {
+	padding-right: 12px;
+	display: inline;
+}
+
+#myName {
+	padding-right: 580px;
+	padding-left: 20px;
+}
+
+
+#introHeading {
+	padding-top: 40px;
+}
+
+#menu {
+	position: fixed;
+	color: white;
+	background-color: #3F51B5;
+	min-height: 100%;
+	height: 100%;
+	width: 200px;
+	border-radius: 5px;
+	box-shadow: -10px 5px 2px #888888;
+}

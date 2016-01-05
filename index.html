@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Brahma's Homepage</title>
+		<link rel = "stylesheet" type = "text/css" href = "assets/CSS_Folder/CSSFile1.css"/> 
+		<link rel = "stylesheet" type = "text/css" href = "assets/CSS_Folder/CSSFile2.css"/> 
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<!--add meta stuff later! -->
+	</head> 
+
+	<body>
+		<!--consider making this like kapils navigation menu with animation of drop down menu-->
+		<span id = "headLine"><i class = "icon ion-more"></i><span id = "myName">Brahma S. Pavse, UT Austin '19</span><a class = "headingOutlines smoothScroll" href="#introDescriptions">About</a> <a class = "headingOutlines smoothScroll" href="#overallExperience">Experience</a> <a class = "headingOutlines smoothScroll" href="#reachingMe">Links</a> <a class = "headingOutlines smoothScroll" href="#contact">Contact</a></span>
+
+		<img src="assets/brahmaLatest.png" alt = "BrahmaPicture" class = "brahmaPic"/>
+
+		<h1 id = "introHeading"><span id = "timeBasedGreeting">Good morning,</span>  welcome to Brahma S. Pavse's Homepage!</h1>
+		<script>
+			var timeObj = new Date();
+			var hour = timeObj.getHours();
+			var greeting = document.getElementById("timeBasedGreeting");
+			if(hour > 18){
+				greeting.textContent = "Good Evening,";
+			} else if(hour > 12){
+				greeting.textContent = "Good Afternoon,";
+			} else {
+				greeting.textContent = "Good Morning,";
+			}
+		</script>
+		<div id = "introDescriptions">
+			
+			<p>Welcome to my humble abode! As the page suggests, my name is Brahma S. Pavse. I am currently a freshman majoring in Computer Science at the 
+			<a href = "http://www.utexas.edu/" target = "_blank">The University of Texas at Austin</a>.</p>
+
+			<p>I was born and raised in Lowell, Massachusetts. Moreover, I have experienced a diversified journey by living in Pune, India for sometime! Now I am finally, as you predicted, in Austin.</p>
+
+			<p>My area of interest primarily lies in Software Development, specifically in areas pertaining to Full Stack development, Machine Learning and Databases.</p>
+
+		</div>
+
+		<section id = "overallExperience">
+			<h2><span id = "expandExp">Expand all</span> or <span id = "collapseExp">Collapse all</span></h2>
+
+			<div id = "projectSection"> 
+				<h3 class = "experienceOutlines" id = "projectHeading">Projects</h3>
+				<div class = "experienceContent" id = "projectContent">
+					<ul>
+					<li><dt>PaperLessRegistration</dt>
+						<dd>Designed a program that implemented a digital database that included functionality of data structures to 	keep track of profiles of individuals; hence, troubleshooting the problem of excessive paper usage of 	smaller companies such as apartment rental agencies or car dealership. <br />
+						Model built using: Java and text files.<br />
+						Current Development using: HTML, CSS, JavaScript (more)
+						</dd>
+					</li>
+					<li><dt>Whats's My House Price?</dt>
+						<dd>Executed Machine Learning analysis program implementing Univariate and Multivariate Regression models to 	predict housing prices based on large database 	of collected data. <br />
+						Built using: MATLAB/Octave
+						</dd>	
+					</li>
+					<li><dt>Come Together (For music lovers: <a href = "https://www.youtube.com/watch?v=_HONxwhwmgU" target = "_blank">	Come Together</a>)</dt>
+						<dd>Developed a Social Network by keeping track of data via HashMaps and ArrayLists. That enabled users to possess profile pictures, friends list and statuses. <br />
+						Built using: Java and text files.
+						</dd>
+					</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div id = "experienceSection">
+				<h3 class = "experienceOutlines" id = "expHeading">Experience</h3>
+				<div class = "experienceContent" id = "experienceContent">
+					<dt>Omniscient Software, Summer 2014</dt>
+					<dd>Software Testing Intern <br />
+					Focused	on	optimization of	Network	Software Product through testing and configuring to	ensure emphasis was placed 	on	
+					regulation of specific restrictive websites for	employee. <br /> 
+					The	process	enabled an ethical work paradigm for all employees and increased Omniscient's productivity by 15%.
+					</dd>
+				</div>
+			</div>
+
+			<div id = "techSkillSection">
+				<h3 class = "experienceOutlines" id = "techSkillHeading">Technical Skills</h3>
+				<div class = "experienceContent" id = "techSkillContent">
+					<ul>Programming Skills:
+						<li>Proficient: Java, Java ACM Library</li>
+						<li>Familiar: C++</li>
+						<li>Exposure: Python</li>
+					<br />
+					Web Development:
+						<li>Familiar: HTML, CSS, JavaScript, jQuery</li>
+					<br>
+					Databases:
+						<li>Familiar: MySQL</li>
+					<br>
+					Version Control:
+						<li>Familiar: Git, GitHub</li>
+					</ul>
+				</div>	
+			</div>
+
+			<div id = "courseworkSection">
+				<h3 class = "experienceOutlines" id = "courseworkHeading">Coursework</h3>
+				<div class = "experienceContent" id = "courseworkContent">
+					<ul>Fall 2015:
+					<li>CS312 - Introduction to Programming (SCOTT)</li>
+					<li>M408D - Sequences, Series and Multivariable Calculus (CEPPARO)</li>
+					<li>ECO304K - Introduction to Microeconomics (WISEMAN)</li>
+					<br />
+					Spring 2016:
+					<li>CS314 - Data Structures (SCOTT)</li>
+					<li>CS311 - Discrete Mathematics (BULKO)</li>
+					<li>CS378 - Autonomous Intelligent Robotics</li>
+					<li>SDS321 - Introduction to Stats and Probability (MYERS)</li>
+					</ul>
+				</div>
+			</div>	
+		</section>
+
+		<div id = "reachingMe">
+			<h3>Links:</h3>
+			<ul>
+				<li><a href="assets/BrahmaS.PavseUTResume.pdf" target = "_blank">Resume: <i class = "icon ion-document-text"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/brahmaspavse" target = "_blank"><i class="icon ion-social-linkedin"></i></a></li>
+				<li><a href="https://www.facebook.com/BaronPavse" target = "_blank"><i class="icon ion-social-facebook"></i></a></li>
+				<li><a href="https://github.com/brahmasp/" target = "_blank"><i class="icon ion-social-github"></i></a></li>
+			</ul>
+		</div>
+	<script src = "assets/JavaScript_Folder/jQuery/jquery-2.1.4.js"></script>
+	<script src = "assets/JavaScript_Folder/contentScrolling.js"></script>
+	<script src = "assets/JavaScript_Folder/smoothscroll.js"></script>
+	<script src = "assets/JavaScript_Folder/moreOptionsIndexPage.js"></script>
+	</body>	
+	<footer>
+		<div id = "contact">
+			Contact Information:
+				<a href="mailto:brahmasp@utexas.edu">Email Me! <i class = "icon ion-android-mail"></i></a> Phone Number <i class = "icon ion-android-call"></i>:(512)-992-7299
+			<br />
+			<br />
+			<form action="mailto:brahma0013@aol.com" method="POST">
+				<fieldset>
+					<legend>Send me a message!</legend>
+					<label for = "name">Name: <input type = "text" placeholder = "Enter your name" name = "name" required = "required" class = "contactInfoInput"/></label><br>
+					<label for = "_replyto">Email: <input type = "email" placeholder = "Enter your email" name = "_replyto" class = "contactInfoInput"/></label><br>
+					<label for = "message">Message: </label><br>
+					<textarea name = "message" cols = "80" rows = "5" class = "contactInfoInput"></textarea>
+					<input type = "submit" value = "Submit" id = "contactMeSubmit"/>
+				</fieldset>	
+			</form>
+		</div>
+		<a href="#introHeading" id = "returnTop" class = "smoothScroll"><i>Return to the top</i></a>
+	</footer>
+</html>
